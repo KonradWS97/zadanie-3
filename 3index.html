@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Praca domowa 1, 2 28,02,2021r</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <ul class="nav" class="owoce" id="owoce">
+      <li><a id="gruszka" href="#">gruszka</a> <img id = "gruszkafoto"  src="gruszka.jpg" alt ="grucha" ></li>
+      <li><a id="czeresnie" href="#">czeresnie</a><img id = "czeresniafoto"  src="czeresnia.jpg" alt ="grucha" ></li>
+      <li><a id="truskawki" href="#">truskawki</a><img id = "truskawkafoto"  src="truskawka.jfif" alt ="grucha" ></li>
+      <li><a id="jablko" href="#">jablko</a><img id = "jablkofoto"   src="jabłko.jpg" alt ="grucha" ></li>
+      <li><a id="banan" href="#">banan</a><img id = "bananfoto"  src="banan.png" alt ="grucha" ></li>
+    </ul>
+    <div id="nazwaOwoca"></div>
+    <script> 
+    //gruszka
+    var isshow = true ;
+      var gru =  document.getElementById("gruszka");
+      console.log("owoc");
+   gru.addEventListener("click", pokarzGru) 
+    
+       function pokarzGru(){
+     console.log("clik")
+     isshow=!isshow;
+     gruszkafoto.style.display="block";
+    
+    if(!isshow){
+        gruszkafoto.style.display="none";
+    }
+//czeresnia
+   }
+     var isshow = true ;
+      var gru =  document.getElementById("czeresnie");
+      console.log("owoc");
+     gru.addEventListener("click", pokarzCze) 
+    
+       function pokarzCze(){
+     console.log("clik")
+     isshow=!isshow;
+     czeresniafoto.style.display="block";
+    
+    if(!isshow){
+        czeresniafoto.style.display="none";
+    }
+
+   }
+      //truskawka
+   var isshow = true ;
+      var gru =  document.getElementById("truskawki");
+      console.log("owoc");
+   gru.addEventListener("click", pokarzTru) 
+    
+       function pokarzTru(){
+     console.log("clik")
+     isshow=!isshow;
+     truskawkafoto.style.display="block";
+    
+    if(!isshow){
+        truskawkafoto.style.display="none";
+    }
+
+   }
+      //jabłko
+      var isshow = true ;
+      var gru =  document.getElementById("jablko");
+      console.log("owoc");
+   gru.addEventListener("click", pokarzJab) 
+    
+       function pokarzJab(){
+     console.log("clik")
+     isshow=!isshow;
+     jablkofoto.style.display="block";
+    
+    if(!isshow){
+        jablkofoto.style.display="none";
+    }
+
+   }
+      //banan
+      var isshow = true ;
+      var gru =  document.getElementById("banan");
+      console.log("owoc");
+   gru.addEventListener("click", pokarzBan) 
+    
+       function pokarzBan(){
+     console.log("clik")
+     isshow=!isshow;
+     bananfoto.style.display="block";
+    
+    if(!isshow){
+        bananfoto.style.display="none";
+    }
+
+   }
+      
+       
+       
+        
+      </script>
+    </body>
+  </html>
