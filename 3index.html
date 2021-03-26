@@ -17,6 +17,32 @@
     </ul>
     <div id="nazwaOwoca"></div>
     <script> 
+    // wszystko
+    // var owocLi = document.querySelectorAll("#owoce li");
+    //   var getBlockName = document.getElementById("nazwaOwoca");
+    //   owocLi.forEach(li => 
+    //   {
+    //     li.addEventListener("mouseenter", function (e) {
+    //       console.log(getBlockName);
+    //       var newNode = document.createTextNode(e.target.innerText);
+    //       getBlockName.appendChild(newNode);
+    //       let a = e.target.innerText;
+    //       console.log(a.length);
+    //       let b =a.charAt(0)
+    //       console.log(b.toUpperCase())
+    //       console.log(newNode)
+    //       owocLi.forEach(li => 
+
+    //   });
+    var owoceLi =document.querySelectorAll("#owoce li")
+    var getBlockName=document.getElementById("nazwaOwoce")
+     owoceLi.forEach(li =>{
+     li.addEventListener("click", function (e)
+     {
+     console.log("getBlockName");
+     })
+    })
+
     //gruszka
     var isshow = true ;
       var gru =  document.getElementById("gruszka");
@@ -102,4 +128,5 @@
         
       </script>
     </body>
+
   </html>
